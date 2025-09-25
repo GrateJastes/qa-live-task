@@ -1,0 +1,19 @@
+:root{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+.container{max-width:720px;margin:24px auto;padding:12px}
+.row{margin-bottom:8px;display:flex;flex-direction:column}
+label{font-weight:600;font-size:0.9rem;margin-bottom:4px}
+input,textarea,select{padding:8px;font-size:1rem;border:1px solid #ccc;border-radius:6px}
+.actions{flex-direction:row;gap:8px}
+button{padding:8px 12px;border-radius:6px;border:none;cursor:pointer}
+.controls{display:flex;gap:8px;align-items:center;margin:12px 0}
+.task-list{list-style:none;padding:0;margin:0}
+.task{display:flex;align-items:flex-start;gap:12px;padding:8px;border:1px solid #eee;border-radius:8px;margin-bottom:8px}
+.meta{font-size:0.85rem;color:#666}
+.title{font-weight:700}
+.badge{padding:4px 8px;border-radius:999px;font-size:0.75rem}
+.badge.low{background:#e6f4ea;color:#0b6b2e}
+.badge.medium{background:#fff7e6;color:#b66b00}
+.badge.high{background:#ffe6e6;color:#a70000}
+.controls select, .controls input{flex:1;min-width:120px}
+.task-actions{margin-left:auto;display:flex;gap:6px}
+.error{color:#a70000;font-size:0.85rem;margin-top:4px}

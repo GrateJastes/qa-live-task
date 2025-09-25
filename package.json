@@ -1,0 +1,13 @@
+{
+  "name": "live-coding-cypress",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^15.3.0",
+    "vite": "7.1.5"
+  }
+}
