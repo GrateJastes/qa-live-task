@@ -16,7 +16,6 @@ export default defineConfig({
     reuseExistingServer: true,
     timeout: 120_000,
   },
-  // Keep it simple: single project on Chromium so candidates can extend if desired
   projects: [
     { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
   ],
