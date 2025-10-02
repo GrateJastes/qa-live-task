@@ -4,9 +4,14 @@
   "scripts": {
     "dev": "vite",
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+    "test:pw": "playwright test",
+    "test:pw:ui": "playwright test --ui",
+    "test:pw:debug": "playwright test --debug",
+    "pw:codegen": "playwright codegen http://localhost:5173"
   },
   "devDependencies": {
+    "@playwright/test": "^1.48.0",
     "cypress": "^15.3.0",
     "vite": "7.1.5"
   }
