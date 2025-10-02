@@ -33,7 +33,7 @@ describe('Tasks app - messy tests', () => {
     cy.contains('A task');
   });
 
-  it('edit flow (fragile)', () => {
+  it('edit flow', () => {
     cy.visit('/');
     cy.get('#title').type('Original');
     cy.get('#save').click();
@@ -44,7 +44,7 @@ describe('Tasks app - messy tests', () => {
     cy.contains('Edited');
   });
 
-  it('delete task (loose)', () => {
+  it('delete task', () => {
     cy.visit('/');
     cy.get('#title').type('Will be deleted');
     cy.get('#save').click();
